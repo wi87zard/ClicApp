@@ -1,0 +1,76 @@
+body {
+
+    background-image: url(/images/Default_Classic_centered_background_image_with_a_soft_leatherl_3.jpg);
+    background-size:auto;
+}
+/* ---------------- Página 1 init.html ---------------- */ 
+/* --Pie de página derechos de autor-- */
+
+.futer {
+    color: goldenrod;
+    font-style: italic;
+    opacity: 0.7;
+}
+
+
+
+
+
+/* ---------------- Página 2 initOne.html ---------------- */ 
+
+.headTitle {
+    color: goldenrod;
+    font-style: italic;
+    opacity: 0.7;
+}
+.restaurantImg1 {
+    height: 720px ;
+    width: 720px ;
+    margin-top: 65%;
+    margin-left: 2%;
+    transform: rotate(340deg);
+    border-radius: 10%;
+    background-image: url('/images/transparent.png');
+    background-repeat: repeat;
+}
+
+.bckground{ 
+    background-attachment: fixed;
+    padding: -12px;
+}
+
+.restaurantImg2 {
+    height: 720px ;
+    width: 720px ;
+    margin-top: 45%;
+    margin-right: 2%;
+    transform: rotate(35deg);
+    border-radius: 20%;
+    background-attachment: fixed;
+    background: linear-gradient(to right, transparent 0%, #000 100%);
+
+
+}
+
+.reserveTitle {
+margin-bottom: 80px;
+width: 100%;
+height: 12px;
+padding: 0;
+
+padding-bottom: 80px;
+color: goldenrod;
+
+opacity: 0.7;
+
+}
+
+.reserveText {
+bottom: 0;
+padding: 10px;
+width: 100%;
+
+    color: rgb(218, 165, 32);
+    font-style: italic;
+    opacity: 0.7;
+}
