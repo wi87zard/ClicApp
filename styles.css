@@ -2,7 +2,19 @@ body {
 
     background-image: url(/images/Default_Classic_centered_background_image_with_a_soft_leatherl_3.jpg);
     background-size:auto;
+    background-size: cover;
+    background-position: center;
 }
+
+/* ---------------- Página login.html ---------------- */
+.login-container {
+    max-width: 400px;
+    margin: 100px auto;
+    padding: 20px;
+    background-color: rgba(255, 255, 255, 0.8);
+    border-radius: 10px;
+}
+
 /* ---------------- Página 1 init.html ---------------- */ 
 /* --Pie de página derechos de autor-- */
 
