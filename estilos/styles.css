@@ -1,18 +1,63 @@
 body {
 
     background-image: url(/images/Default_Classic_centered_background_image_with_a_soft_leatherl_3.jpg);
-    background-size:auto;
     background-size: cover;
     background-position: center;
+
+    background-color: #f2f2f2; /* Ajusta el color de fondo */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
 }
+/* ---------------- Página login.html ---------------- */
+.container {
+    text-align: center;
+}
+
+.loader {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+}
+
+.spinner-border {
+    width: 3rem;
+    height: 3rem;
+    color: #ff9800; /* Ajusta el color del spinner */
+}
+
+p {
+    font-family: 'Montserrat', sans-serif; /* Ajusta la tipografía */
+    margin: 0;
+}
+
 
 /* ---------------- Página login.html ---------------- */
 .login-container {
-    max-width: 400px;
+    max-width: 340px;
     margin: 100px auto;
     padding: 20px;
     background-color: rgba(255, 255, 255, 0.8);
-    border-radius: 10px;
+    box-shadow: 7px 13px 37px #000;
+    border-top: 4px solid;
+    border-radius: 30px;
+}
+
+
+
+/* ---------------- Página registro.html ---------------- */
+
+.register-container {
+    max-width: 350px;
+    margin: 100px auto;
+    padding: 20px;
+    background-color: rgba(255, 255, 255, 0.8);
+    box-shadow: 7px 13px 37px #000;
+    border-top: 4px solid;
+    border-radius: 30px;
 }
 
 /* ---------------- Página 1 init.html ---------------- */ 
